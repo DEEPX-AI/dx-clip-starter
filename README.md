@@ -36,13 +36,13 @@ Perfect for understanding vision-language applications with optimized inference 
 
 ```
 ┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│   Text      │─────▶│  ONNX Text   │─────▶│  Text       │
+│   Text      │────▶│  ONNX Text   │────▶│  Text       │
 │  Input      │      │   Encoder    │      │  Features   │
 └─────────────┘      └──────────────┘      └─────────────┘
                                                       │
                                                       ▼
 ┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│   Image     │─────▶│  DEEPX NPU   │─────▶│  Image      │
+│   Image     │────▶│  DEEPX NPU   │────▶│  Image      │
 │  Input      │      │   Encoder    │      │  Features   │
 └─────────────┘      └──────────────┘      └─────────────┘
                                                       │
