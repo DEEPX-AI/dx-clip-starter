@@ -7,7 +7,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org/)
 [![ONNX](https://img.shields.io/badge/ONNX-1.14+-green.svg)](https://onnx.ai/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
 
@@ -71,7 +70,7 @@ Perfect for understanding vision-language applications with optimized inference 
 2. **Create virtual environment**
    ```bash
    python3 -m venv .venv-clip
-   source .venv-clip/bin/activate  # On Windows: .venv-clip\Scripts\activate
+   source .venv-clip/bin/activate
    ```
 
 3. **Install dependencies**
@@ -80,6 +79,7 @@ Perfect for understanding vision-language applications with optimized inference 
    ```
 
 4. **DEEPX SDK has been installed**
+- Refer to https://github.com/DEEPX-AI/dx-all-suite/blob/main/docs/source/installation.md
 
 5. **Install dx-engine**
    ```base
@@ -215,7 +215,7 @@ python3 camera-text-matcher-async.py \
 ```bash
 --width 1920 --height 1080 --fps 30  # Full HD @ 30fps
 --width 1280 --height 720 --fps 60   # HD @ 60fps
---width 1280 --height 720 --fps 30   # HD @ 30fps (default) 
+--width 1280 --height 720 --fps 30   # HD @ 30fps, MJPEG (default) 
 ```
 
 ## 📁 Project Structure
